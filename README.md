@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="" width="90%">
+</p>
+
+
+
 # Cookie Cats A/B Testing: Retention Impact Analysis
 
 ## 1. Overview
