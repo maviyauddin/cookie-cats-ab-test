@@ -176,6 +176,94 @@ Copy code
 - Scikit-learn (optional exploratory modeling)  
 - Jupyter / Google Colab  
 
+## Executive Summary
+
+This project analyzes an A/B experiment conducted on the mobile puzzle game Cookie Cats, where the development team tested whether shifting the first progression gate from level 30 to level 40 would improve player retention. Using 90,189 user records, the analysis applies statistical hypothesis testing, bootstrap confidence intervals, and effect size measurement to determine the impact of this design change.
+
+Results show that while Day-1 retention remains statistically unchanged, Day-7 retention decreases significantly for players exposed to the new gate at level 40. The bootstrap confidence interval confirms that this effect is consistently negative, and even small changes in retention can have meaningful implications for player lifetime value in mobile gaming.
+
+Based on these findings, the recommendation is to maintain the original gate at level 30, as the modification negatively affects long-term engagement. This project demonstrates a full analytics workflow—from experiment evaluation to actionable business insight—and highlights my ability to apply data science techniques to real product decisions.
 ---
 
+## Purpose of This Project
+
+The purpose of this project is to evaluate the impact of a gameplay design change on user retention through a controlled A/B experiment.  
+Specifically, the mobile game Cookie Cats moved its first progression gate from level 30 to level 40, and the company needed to determine whether this change improved or harmed player engagement.
+
+This project applies statistical hypothesis testing, bootstrapping, and effect size analysis to quantify the effect of the experiment and provide a clear, data-driven recommendation for product decision-making.
+
+## Project Motivation
+
+A/B testing is one of the most essential tools in data-driven product development.  
+Understanding how to design, evaluate, and interpret controlled experiments is a core skill for data scientists, product analysts, and machine learning practitioners.
+
+This project was selected to strengthen my ability to:
+
+- Analyze real behavioral data at scale  
+- Apply statistical methods to quantify treatment effects  
+- Validate results using bootstrapping and effect size metrics  
+- Translate analytical findings into clear product recommendations  
+
+By working through this end-to-end experiment, I aimed to develop a deeper understanding of how data science directly influences product decisions, user engagement, and business outcomes.
+
+## Skills Demonstrated
+
+- **A/B Testing & Experimentation**
+  - Designed and evaluated a controlled A/B experiment
+  - Applied two-proportion z-tests to compare treatment and control groups
+  - Interpreted statistical significance and practical significance
+
+- **Statistical Analysis**
+  - Conducted hypothesis testing for retention metrics
+  - Generated bootstrap confidence intervals (5,000+ samples)
+  - Calculated effect sizes (Cohen’s h) to quantify impact
+
+- **Data Exploration & Visualization**
+  - Cleaned and analyzed user gameplay data
+  - Built clear retention plots and distribution visualizations
+  - Summarized insights into interpretable tables and charts
+
+- **Machine Learning**
+  - Built a logistic regression model to predict Day-7 retention
+  - Performed feature engineering and model evaluation (AUC metric)
+  - Interpreted model coefficients to support decision-making
+
+- **Business Decision-Making**
+  - Translated statistical findings into actionable recommendations
+  - Assessed the impact of game mechanics on user engagement
+  - Formulated product insights and experiment follow-up strategies
+
+- **Technical Stack**
+  - Python, Pandas, NumPy  
+  - Matplotlib for visualizations  
+  - Scikit-learn for modeling  
+  - Statsmodels for statistical testing  
+
+This project demonstrates my ability to combine analytical rigor, statistical methods, and business thinking to deliver insights that guide product development.
+
+## Final Summary
+
+This project presents a complete A/B testing workflow applied to real game analytics data.  
+Through statistical hypothesis testing, bootstrap validation, effect size measurement, and machine learning modeling, the analysis demonstrates that moving the first game gate from level 30 to level 40 negatively affects long-term retention.
+
+The results provide a clear, data-driven recommendation for product decision-making and highlight the importance of combining statistical rigor with business context.  
+This work reflects my ability to execute end-to-end analytical projects, communicate insights effectively, and apply data science methods to meaningful real-world scenarios.
+
+
+
+## 👤 About Me
+
+Hi, I'm **Khaja Maviya Uddin** — a Data Science student passionate about building end-to-end ML systems, data analysis, and real-world projects.  
+I'm actively seeking opportunities as a **Data Scientist / ML Engineer**.
+I’m currently applying for **(Data Scientist,ML,AI) roles** and actively growing my skills in:
+- Machine Learning  
+- Data Engineering  
+- SQL & Python  
+- Deep Learning  
+- Recommender Systems
+I love building projects that go beyond basic ML models — focusing on **clean pipelines**, **real-world datasets**, and **scalable techniques** like collaborative filtering and matrix factorization.
+
+📫 **Email:** [khajamaviyauddin@gmail.com]  
+🔗 **LinkedIn:** (https://www.linkedin.com/in/khaja-maviya-uddin-018995309/)  
+💻 **GitHub:** (https://github.com/maviyauddin)
 
