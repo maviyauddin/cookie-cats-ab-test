@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" width="90%">
+  <img src="https://github.com/maviyauddin/cookie-cats-ab-test/blob/main/Image%20Dec%205,%202025,%2008_53_08%20AM.png?raw=true" width="90%">
 </p>
 
 
